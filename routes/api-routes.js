@@ -1,7 +1,7 @@
 const express = require('express');
-const {getFlashcardbyID, getFlashcardbyCategory, getFlashcardbyjenisBahasa} = require ('.../controller/flashcardController');
-const {getQuizbyID, getQuizbyCategory, getQuizbyjenisBahasa} = require ('.../controller/quizController');
-const {getProfile, updateProfile} = require ('.../controller/profileController');
+const {getFlashcardbyID, getFlashcardbyCategory, getFlashcardbyjenisBahasa} = require ('.../controller/api/flashcardController');
+const {getQuizbyID, getQuizbyCategory, getQuizbyjenisBahasa} = require ('.../controller/api/quizController');
+const {getProfile, updateProfile} = require ('.../controller/api/profileController');
 const router = express.Router();
 
 router.get('/flashcard/:flashcardID', getFlashcardbyID);
