@@ -3,6 +3,7 @@ const admin = require("firebase-admin");
 const credentials = require("./backend-73491-firebase-adminsdk-su5he-21aa383fd3.json");
 const FAQRoutes = require("./routes/FAQRoute");
 const quizRoutes = require("./routes/quizRoute");
+const flashcardsRoutes = require("./routes/flashcardsRoute");
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(express.json());
 
 app.use("/api/FAQ", FAQRoutes);
 app.use("/api/quiz", quizRoutes);
+app.use("/api/flashcards", flashcardsRoutes);
 
 const PORT = process.env.PORT || 5000;
 
