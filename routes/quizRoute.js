@@ -1,5 +1,8 @@
 const express = require("express");
-const { getQuizByLangType, getQuizByCategory } = require("../controllers/quizController");
+const {
+  getQuizByLangType,
+  getQuizByCategory,
+} = require("../controllers/quizController");
 
 const router = express.Router();
 
