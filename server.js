@@ -5,6 +5,7 @@ const quizRoutes = require("./routes/quizRoute");
 const flashcardsRoutes = require("./routes/flashcardsRoute");
 const authRoute = require('./routes/authRoute'); 
 const riwayatRoutes = require('./routes/riwayatRoute'); 
+const profileRoutes = require("./routes/profileRoute");
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use('/api', riwayatRoutes);
 app.use("/api/FAQ", FAQRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/flashcards", flashcardsRoutes);
+app.use("/api/profile", profileRoutes);
 
 const PORT = process.env.PORT || 5000;
 
