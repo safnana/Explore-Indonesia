@@ -21,6 +21,10 @@ app.use("/api/quiz", quizRoutes);
 app.use("/api/flashcards", flashcardsRoutes);
 app.use("/api/profile", profileRoutes);
 
+app.get("/api/protected", authenticate, (req, res) => {
+    res.status(200).json({ message: "Anda berhasil mengakses rute yang dilindungi", user: req.user });
+});
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
