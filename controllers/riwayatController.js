@@ -1,7 +1,6 @@
 const admin = require('firebase-admin');
+const { db } = require("../config/db");
 const moment = require('moment');
-
-const db = admin.firestore();
 
 const simpanRiwayat = async (userId, flashcardId) => {
     try {
