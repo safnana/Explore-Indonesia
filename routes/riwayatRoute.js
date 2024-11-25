@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const riwayatController = require('./riwayatController');
+const riwayatController = require('../controllers/riwayatController');
 
 router.post('/riwayat', async (req, res) => {
     try {
