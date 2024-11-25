@@ -1,5 +1,5 @@
 const admin = require("firebase-admin");
-const db = admin.firestore();
+const { db } = require("../config/db");
 const { validationResult } = require("express-validator");
 
 const register = async (req, res) => {
