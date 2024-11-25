@@ -1,4 +1,4 @@
 # Explore-Nusantara
 <ul>
-  <li><b>[Backend and API Explore Nusantara](https://github.com/safnana/Explore-Indonesia.git)</b></li>
+  <li><b><a href="https://github.com/safnana/Explore-Indonesia.git"> Backend & API Explore Nusantara</a></b></li>
 </ul>
