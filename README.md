@@ -45,13 +45,11 @@ ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untu
 * multer: 1.4.5-lts.1
 * nodemon: 3.1.7
 
-## Code Configuration
+## Code Configuration.
 
 To run this project, you will need to add the following environment variables to your `.env` file:
 
-### Express Server Configuration 1 
-
-```javascript
-PORT=YOUR-PORT
-HOST=YOUR-HOST
-HOST_URL= http://YOUR-HOST:YOUR-PORT
+### Express Server Configuration
+`PORT= YOUR-PORT`
+`HOST= YOUR-HOST`
+`HOST_URL= http://YOUR-HOST:YOUR-PORT`
