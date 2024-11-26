@@ -124,5 +124,7 @@ gcloud app deploy
 
 ## Public API this Project use
 
-* [Vision API]([link-ke-BMI-API](https://cloud.google.com/vision/docs?hl=id))
-* [Translate API]([link-ke-nutrition-API](https://cloud.google.com/translate/docs/reference/rest/))
+<ul>
+  <li><b><a href="https://cloud.google.com/vision/docs?hl=id"> Vision API</a></b></li>
+  <li><b><a href="https://cloud.google.com/translate/docs/reference/rest/"> Translate API</a></b></li>
+  <ul>
