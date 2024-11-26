@@ -54,3 +54,5 @@ To run this project, you will need to add the following environment variables to
 `PORT= YOUR-PORT`
 `HOST= YOUR-HOST`
 `HOST_URL= http://YOUR-HOST:YOUR-PORT`
+
+### Firebase Database Configuration
