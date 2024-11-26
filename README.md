@@ -78,7 +78,7 @@ Follow these steps to run the ExploreIndonesia - Backendd locally:
 
 Clone the project, navigate to the project directory, and install dependencies
 ```
-https://github.com/safnana/Explore-Indonesia.git
+git clone https://github.com/safnana/Explore-Indonesia.git
 cd Explore-Indonesia
 npm install
 ```
