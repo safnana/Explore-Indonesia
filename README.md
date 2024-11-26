@@ -15,8 +15,19 @@
   </ul>
 </ul>
 
-# ExploreIndonesia.
+## ExploreIndonesia.
 ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untuk memperkenalkan budaya dan sejarah yang ada di indo
 
-# Backend and Cloud Architecture.
+## Backend and Cloud Architecture.
 ![Backend and Cloud Design Architecture](https://github.com/user-attachments/assets/7bbcb493-f238-4138-b461-9d2b0dbe5af2)
+
+## Teck Stack
+* Express.js
+* Firebase
+* Google Cloud Platform (GCP) services:
+    * Cloud Functions
+    * App Engine
+    * Google Cloud Vision API
+    * Google Translate API
+    * Pub/Sub
+    * Cloud Storage/Buckets 1
