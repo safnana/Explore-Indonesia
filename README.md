@@ -51,12 +51,16 @@ To run this project, you will need to add the following environment variables to
 
 
 ### Express Server Configuration
-
 ```
-- `PORT=YOUR-PORT`
-- `HOST=YOUR-HOST`
-- `HOST_URL=http://YOUR-HOST:YOUR-PORT`
+PORT=YOUR-PORT
+HOST=YOUR-HOST
+HOST_URL=http://YOUR-HOST:YOUR-PORT
 ```
 
 ### Firebase Database Configuration
 To obtain the required configuration, create a Firebase project and retrieve the following details:
+```
+FIREBASE_PROJECT_ID=project-id
+FIREBASE_CLIENT_EMAIL=client-email
+FIREBASE_PRIVATE_KEY=private-key
+```
