@@ -50,6 +50,7 @@ ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untu
 To run this project, you will need to add the following environment variables to your `.env` file:
 
 ### Express Server Configuration
+```javascript
 `PORT= YOUR-PORT`
 `HOST= YOUR-HOST`
 `HOST_URL= http://YOUR-HOST:YOUR-PORT`
