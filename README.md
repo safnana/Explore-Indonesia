@@ -109,3 +109,20 @@ Deploy your code to cloud function
 ```
 firebase deploy --only functions
 ```
+
+## Deployment to Google Cloud Platform
+Clone the project, navigate to the project directory, and install dependencies
+```
+https://github.com/safnana/Explore-Indonesia.git
+cd Calorify
+npm install
+```
+Deploy to App Engine
+```
+gcloud app deploy
+```
+
+## Public API this Project use
+
+* [Vision API]([link-ke-BMI-API](https://cloud.google.com/vision/docs?hl=id))
+* [Translate API]([link-ke-nutrition-API](https://cloud.google.com/translate/docs/reference/rest/))
