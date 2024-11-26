@@ -87,3 +87,25 @@ Start the server
 npm run start
 ```
 
+## Configuration for Cloud Function.
+To configure the Calorify-Backend for deployment to Google Cloud Functions, follow these steps
+
+Install the Firebase CLI:
+```
+npm install -g firebase-tools
+```
+Navigate to the project directory and initialize Firebase
+```
+cd Explore-Indonesia/firebasefunction
+firebase init
+```
+Change to the Functions directory, install dependencies, and go back to the project directory
+```
+cd Functions
+npm install
+cd ../
+```
+Deploy your code to cloud function
+```
+firebase deploy --only functions
+```
