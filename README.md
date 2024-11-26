@@ -114,7 +114,7 @@ firebase deploy --only functions
 Clone the project, navigate to the project directory, and install dependencies
 ```
 git clone https://github.com/safnana/Explore-Indonesia.git
-cd Calorify
+cd Explore-Indonesia
 npm install
 ```
 Deploy to App Engine
