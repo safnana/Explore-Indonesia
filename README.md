@@ -2,7 +2,7 @@
 <ul>
   <li><b><a href="https://github.com/safnana/Explore-Indonesia.git"> Backend & API Explore Nusantara</a></b></li>
   <ul>
-    <li><b><a>Cloud Architecture</a></b></li>
+    <li><b><a href="https://cloud.google.com/translate/docs/reference/rest/">Cloud Architecture</a></b></li>
     <li><b>Documentation</b></li>
     <li><b>Tech Stack</b></li>
     <li><b>Dependencies</b></li>
