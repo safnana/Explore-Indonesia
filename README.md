@@ -122,7 +122,7 @@ Deploy to App Engine
 gcloud app deploy
 ```
 
-## Public API this Project use
+## Public API
 
 <ul>
   <li><b><a href="https://cloud.google.com/vision/docs?hl=id"> Vision API</a></b></li>
