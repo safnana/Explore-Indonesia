@@ -113,7 +113,7 @@ firebase deploy --only functions
 ## Deployment to Google Cloud Platform
 Clone the project, navigate to the project directory, and install dependencies
 ```
-https://github.com/safnana/Explore-Indonesia.git
+git clone https://github.com/safnana/Explore-Indonesia.git
 cd Calorify
 npm install
 ```
