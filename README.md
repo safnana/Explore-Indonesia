@@ -9,7 +9,6 @@
     <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#code-configuration">Code Configuration</a></b></li>
     <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#service-account-configuration">Service Account Configuration</a></b></li>
     <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#local-development">Local Development</a></b></li>
-    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#configuration-for-cloud-function">Configuration for Cloud Function</a></b></li>
     <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#deployment-to-google-cloud-platform">Deployment To Google Cloud Platform</a></b></li>
     <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#public-api">Public API</a></b></li>
   </ul>
@@ -85,29 +84,6 @@ npm install
 Start the server
 ```
 npm run start
-```
-
-## Configuration for Cloud Function.
-To configure the Calorify-Backend for deployment to Google Cloud Functions, follow these steps
-
-Install the Firebase CLI:
-```
-npm install -g firebase-tools
-```
-Navigate to the project directory and initialize Firebase
-```
-cd Explore-Indonesia/firebasefunction
-firebase init
-```
-Change to the Functions directory, install dependencies, and go back to the project directory
-```
-cd Functions
-npm install
-cd ../
-```
-Deploy your code to cloud function
-```
-firebase deploy --only functions
 ```
 
 ## Deployment to Google Cloud Platform
