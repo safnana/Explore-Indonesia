@@ -75,6 +75,7 @@ FIREBASE_PRIVATE_KEY=private-key
 
 ## Local Development.
 Follow these steps to run the ExploreIndonesia - Backendd locally:
+
 Clone the project, navigate to the project directory, and install dependencies
 ```
 https://github.com/safnana/Explore-Indonesia.git
