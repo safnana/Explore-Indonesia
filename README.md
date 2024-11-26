@@ -3,15 +3,15 @@
   <li><b><a href="https://github.com/safnana/Explore-Indonesia.git"> Backend & API Explore Nusantara</a></b></li>
   <ul>
     <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#backend-and-cloud-architecture">Cloud Architecture</a></b></li>
-    <li><b>Documentation</b></li>
-    <li><b>Tech Stack</b></li>
-    <li><b>Dependencies</b></li>
-    <li><b>Code Configuration</b></li>
-    <li><b>Service Account Configuration</b></li>
-    <li><b>Local Development</b></li>
-    <li><b>Configuration for Cloud Function</b></li>
-    <li><b>Deployment To Google Cloud Platform</b></li>
-    <li><b>Public API</b></li>
+    <li><b><a href="">Documentation</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#teck-stack">Tech Stack</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#dependencies">Dependencies</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#code-configuration">Code Configuration</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#service-account-configuration">Service Account Configuration</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#local-development">Local Development</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#configuration-for-cloud-function">Configuration for Cloud Function</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#deployment-to-google-cloud-platform">Deployment To Google Cloud Platform</a></b></li>
+    <li><b><a href="https://github.com/safnana/Explore-Indonesia/blob/main/README.md#public-api">Public API</a></b></li>
   </ul>
 </ul>
 
