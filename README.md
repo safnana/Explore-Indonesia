@@ -19,3 +19,4 @@
 ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untuk memperkenalkan budaya dan sejarah yang ada di indo
 
 # Backend and Cloud Architecture.
+![Backend and Cloud Design Architecture](https://github.com/user-attachments/assets/7bbcb493-f238-4138-b461-9d2b0dbe5af2)
