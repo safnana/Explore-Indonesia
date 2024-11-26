@@ -64,3 +64,16 @@ FIREBASE_PROJECT_ID=project-id
 FIREBASE_CLIENT_EMAIL=client-email
 FIREBASE_PRIVATE_KEY=private-key
 ```
+
+### Service Account Configuration
+
+*Firebase Service Account
+```
+- Create your firebase project
+- Download your service account and copy in serviceAccount-firebase-key.json
+```
+*Bucket Service Account
+```
+- create your cloud bucket
+- create service account and copy in serviceAccount-image-key.json
+```
