@@ -54,4 +54,4 @@ To run this project, you will need to add the following environment variables to
 ```javascript
 PORT=YOUR-PORT
 HOST=YOUR-HOST
-HOST_URL=http://YOUR-HOST:YOUR-PORT
+HOST_URL= http://YOUR-HOST:YOUR-PORT
