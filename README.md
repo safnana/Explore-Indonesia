@@ -23,14 +23,14 @@ ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untu
 
 ## Teck Stack.
 * Express.js
-* Firebase
+* Firebase/Firestore
 * Google Cloud Platform (GCP) services:
     * Cloud Functions
     * App Engine
     * Google Cloud Vision API
     * Google Translate API
     * Pub/Sub
-    * Cloud Storage/Buckets 1
+    * Cloud Storage/Buckets 
 
 ## Dependencies.
 * @google-cloud/pubsub: 4.9.0
