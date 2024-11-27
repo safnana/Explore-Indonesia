@@ -1,0 +1,6 @@
+runtime: nodejs22
+entrypoint: node app.js
+
+handlers:
+- url: /.*
+  script: auto
