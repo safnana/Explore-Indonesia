@@ -35,12 +35,13 @@ const login = async (req, res) => {
 
         const userCredential = await admin.auth().getUserByEmail(email);
         const idToken = await admin.auth().createCustomToken(userCredential.uid);
+        const userId = userCredential.uid;
 
         await db.collection("users").doc(userCredential.uid).update({
             lastSignedIn: admin.firestore.FieldValue.serverTimestamp(),
         });
 
-        res.status(200).json({ token: idToken });
+        res.status(200).json({ token: idToken, userId: userId });
     } catch (error) {
         res.status(401).json({ message: "Invalid credentials" });
     }
