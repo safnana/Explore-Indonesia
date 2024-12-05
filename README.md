@@ -24,15 +24,12 @@ ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untu
 * Express.js
 * Firebase/Firestore
 * Google Cloud Platform (GCP) services:
-    * Cloud Functions
     * App Engine
     * Google Cloud Vision API
     * Google Translate API
-    * Pub/Sub
     * Cloud Storage/Buckets 
 
 ## Dependencies.
-* @google-cloud/pubsub: 4.9.0
 * @google-cloud/storage: 7.14.0
 * axios: 1.7.7
 * cors: 2.8.5
@@ -101,6 +98,5 @@ gcloud app deploy
 ## Public API
 
 <ul>
-  <li><b><a href="https://cloud.google.com/vision/docs?hl=id"> Vision API</a></b></li>
   <li><b><a href="https://cloud.google.com/translate/docs/reference/rest/"> Translate API</a></b></li>
   <ul>
