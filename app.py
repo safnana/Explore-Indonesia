@@ -6,8 +6,11 @@ import cv2
 from flask import Flask, request, jsonify
 from google.cloud import storage
 from google.cloud import translate_v2 as translate
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 def download_blob(bucket_name, source_blob_name, destination_file_name):
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
