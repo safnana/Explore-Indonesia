@@ -10,7 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@google-cloud/pubsub": "^4.9.0",
     "@google-cloud/storage": "^7.14.0",
     "axios": "^1.7.7",
     "cors": "^2.8.5",
