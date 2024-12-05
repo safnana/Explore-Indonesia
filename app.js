@@ -13,6 +13,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.send('Alhamdullilah');
+});
+
 app.use('/api/auth', authRoute);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/FAQ", FAQRoutes);
