@@ -21,6 +21,10 @@ router.post(
     authController.login
 );
 
+router.get("/user", (req, res) => {
+    res.status(200).json({ message: "Anda berhasil mengakses rute yang dilindungi", user: req.user });
+});
+
 router.post("/logout", authController.logout);
 router.get("/getuser", authController.getUser);
 
