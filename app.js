@@ -23,10 +23,7 @@ app.use("/api/FAQ", FAQRoutes);
 app.use("/api/flashcards", flashcardsRoutes);
 app.use("/api/profile", profileRoutes);
 app.use('/api', riwayatRoutes);
-
-app.get("/api/protected", authenticate, (req, res) => {
-    res.status(200).json({ message: "Anda berhasil mengakses rute yang dilindungi", user: req.user });
-});
+app.use("/api/protected", authenticate);
 
 const PORT = process.env.PORT || 5000;
 
