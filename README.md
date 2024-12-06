@@ -96,8 +96,4 @@ Deploy to App Engine
 gcloud app deploy
 ```
 
-## Public API
 
-<ul>
-  <li><b><a href="https://cloud.google.com/translate/docs/reference/rest/"> Translate API</a></b></li>
-  <ul>
