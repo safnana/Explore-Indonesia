@@ -100,5 +100,5 @@ gcloud app deploy
 
 ## Public Api
 <ul>
-  <li><b><a href="https://cloud.google.com/translate/docs/reference/rest/">Public API</a></b></li>
+  <li><b><a href="https://cloud.google.com/translate/docs/reference/rest/">Google Translate API</a></b></li>
 </ul>
