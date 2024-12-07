@@ -1,4 +1,4 @@
-# Explore Nusantara - OCR Model
+# Explore Indonesia - OCR Model
 This is the Machine Learning Model API, namely the OCR Translate Model. This API is made using Flask.
 
 ## API Reference
