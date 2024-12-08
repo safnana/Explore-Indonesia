@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const moment = require('moment');
+const moment = require('moment-timezone'); 
 
 const db = admin.firestore();
 
@@ -9,11 +9,14 @@ const simpanRiwayat = async (userId, flashcardId) => {
             throw new Error('userId dan flashcardId harus diisi');
         }
 
+        // Ambil waktu sekarang dalam zona WIB
+        const wibTimestamp = moment().tz("Asia/Jakarta").format();
+
         await db.collection('riwayat').doc(userId).set(
             { 
                 riwayat: admin.firestore.FieldValue.arrayUnion({
                     flashcardId: flashcardId,
-                    timestamp: new Date()
+                    timestamp: wibTimestamp, // Simpan waktu dalam format ISO untuk zona WIB
                 }),
             }, 
             { merge: true }
@@ -43,9 +46,9 @@ const ambilRiwayatTerakhir = async (userId) => {
                     const flashcardData = flashcardDoc.data();
                     const { category, languageType, title } = flashcardData;
 
-                    if (riwayatTerakhir.timestamp && riwayatTerakhir.timestamp.toDate) {
-                        const timestamp = riwayatTerakhir.timestamp.toDate();
-                        const formattedTimestamp = moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
+                    if (riwayatTerakhir.timestamp) {
+                        // Konversi timestamp yang disimpan di WIB
+                        const formattedTimestamp = moment(riwayatTerakhir.timestamp).tz("Asia/Jakarta").format('MMMM Do YYYY, h:mm:ss a');
                         return { 
                             flashcardId: flashcardIdTerakhir, 
                             timestamp: formattedTimestamp,
