@@ -15,12 +15,12 @@
 </ul>
 
 ## ExploreIndonesia.
-ExploreIndonesia-Backend adalah komponen backend ExploreIndonesia, aplikasi untuk memperkenalkan budaya dan sejarah yang ada di indo
+
 
 ## Backend and Cloud Architecture.
 
 ![Backend and Cloud Architecture](https://github.com/user-attachments/assets/2cbad4c6-6407-4993-af50-8f606adfa6e2)
-
+ExploreIndonesia-Backend merupakan sistem  di balik aplikasi ExploreIndonesia, yang bertanggung jawab untuk memproses data,  menghubungkan pengguna dengan informasi budaya dan sejarah, serta  mendukung fitur-fitur interaktif dalam aplikasi.
 
 
 ## Teck Stack.
