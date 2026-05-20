@@ -7,8 +7,8 @@ const authenticate = async (req, res, next) => {
     }
     try {
         const decodedToken = await admin.auth().verifyIdToken(token);
-        req.user = decodedToken; // Menyimpan data pengguna di req.user
-        next(); // Melanjutkan ke middleware/rute berikutnya
+        req.user = decodedToken; 
+        next(); 
     } catch (error) {
         res.status(401).json({ message: "Token tidak valid", error: error.message });
     }
